@@ -1,0 +1,154 @@
+	
+	body {
+		background-color: #f7a9a8;
+		font-family:'Lato', sans-serif;
+		font-size:1 em;
+		line-height: 30px;
+		word-spacing: 8px;
+		text-indent: 25px;
+		color: navy;
+		
+	}	
+		ul {
+	
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	
+}
+
+li.c{
+		float: left;
+}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 50px 16px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  font-family: "Poppins", sans-serif;  
+  
+}
+
+	li a:hover {
+	  background-color: #111;
+}
+	
+	div.myDiv {
+		border: 12px  ridge navy;
+		background-color: #FFFFFF;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 1000px;
+		margin-right: auto; 
+		margin-left: auto; 
+		padding: 35px;
+		
+	}
+	
+
+	p {
+		font-family:'Lato', sans-serif;
+		text-align:justify;
+		font-size: 10 em;
+		text-indent: 70px;
+		line-height: 30px;
+		word-spacing: 8px;
+		margin: 10px;
+		padding: 10px;
+	}
+	
+	h3 { 
+	
+		font-family:'Merriweather', serif;
+		line-height: 30px;
+	
+	
+	}
+	
+	h4 { 
+	
+		font-family:'Merriweather', serif;
+		line-height: 30px;
+	
+	}
+
+	h1 { 
+	
+		font-family:'Merriweather', serif;
+		line-height: 30px;
+		text-align: left;
+	}
+	
+
+	ul.demo {
+		
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		text-indent: 70px;
+		line-height: 30px;
+		word-spacing: 8px;
+		background-color: white;
+	}
+	
+	ul.d { 
+	
+	background-color: white;
+	text-indent: 70px;
+	line-height: 30px;
+	word-spacing: 8px;
+	}
+	ul.c { 
+	
+	background-color: white;
+	text-indent: 70px;
+	line-height: 30px;
+	word-spacing: 8px;
+	}
+	
+	ul.b { 
+	
+	background-color: white;
+	text-indent: 70px;
+	line-height: 30px;
+	word-spacing: 8px;
+	}
+	ul.a { 
+	
+	background-color: white;
+	text-indent: 70px;
+	line-height: 30px;
+	word-spacing: 8px;
+	
+	}
+#footer {
+	
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:100px;  
+   background: #262626;
+   font-family: "Poppins", sans-serif;  
+}
+	
+	img { 
+	
+		width: 150px;
+		height: 150px;	
+		border-radius : 10px;
+	}
+	
+* {
+	margin: 0;
+	padding: 0;
+}
+
+	
+
+	
