@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Map</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+	body {
+	
+		background-color: #f7a9a8;
+}
+h1 {
+	
+		font-family:'Parisienne', cursive;
+		text-align: center;
+		font-size: 3.5em;
+		color: navy;
+	}
+	p { 
+		
+		font-family: 'Noto Sans TC', sans-serif;
+		text-align:center;
+		font-size: 1.25em;
+		text-indent: 70px;
+		line-height: 30px;
+		word-spacing: 8px;
+		color: navy;
+	}
+	
+	ul {
+	
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	
+}
+
+	li {
+		float: left;
+}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 50px 16px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  font-family: "Poppins", sans-serif;  
+  
+}
+
+	li a:hover {
+	  background-color: #111;
+}
+
+.content-area {
+
+	font-size: 20px;
+	text-align: center;
+	padding: 50px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: "Poppins", sans-serif;  
+	margin: 100px;
+	padding 100 px;
+	
+	
+}
+
+#footer {
+	
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:100px;  
+   background: #262626;
+   font-family: "Poppins", sans-serif;  
+}
+
+</style>
+<script language="JavaScript">
+		function writeText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+	}
+
+		function dissolveText(txt) { 
+			document.getElementById("desc").innerHTML=txt;
+	}
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">	
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Noto+Sans+JP:wght@300&family=Noto+Sans+TC&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<ul>
+	<li><a href="../ALISEN_LANDINGPAGE_ITAD.html" target="sameWindow" title="Home">
+	Home</a></li> 
+	
+    <li><a href="../ALISEN_ABOUTMErevised_ITAD.html" target="sameWindow" title="About Me">
+	About Me</a></li> 
+	
+	<li><a href="../ALISEN_RESUME_ITAD.html" target="sameWindow" title="My Resume">
+	My Resume</a></li>
+	
+	<li><a href="../ALISEN_MYBEAT_ITAD.html" target="sameWindow" title="My Beat">
+	My Beat</a></li>
+	
+	<li><a href="../ALISEN_MYKINDOFFILM_ITAD.html" target="sameWindow" title="My Kind of Film">
+	My Kind of Film</a></li>
+	
+	<li><a href="../ALISEN_PHOTOGALLERY_ITAD.html" target="sameWindow" title="Photo Gallery">
+	Photo Gallery</a></li>
+	<li><a href="ALISEN_MAP_ITAD.html" target="sameWindow" title="Map">
+	Map</a></li>
+</ul>
+
+<br><br><br><br><br>
+	<h1>My Map</h1>
+	<br>
+	<div align="center">
+	<img src ="Map.png" usemap="#map"> 
+	<map name ="map">
+	<br>
+	
+	<area shape ="rect" coords="573,384,382,60 " href="ALISEN_FRANCE_ITAD.html" onMouseOver="writeText('The Eiffel Tower was never intended to stand over the Champ-de-Mars permanently.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="circle" coords="166,236,80" href="ALISEN_KOREA_ITAD.html" onMouseOver="writeText('In Korea, you can find some of the same foods from the royal cuisine in temple food.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="rect" coords="184,62,20,383" href="ALISEN_SIARGAO_ITAD.html" onMouseOver="writeText('Catch the beautiful sunset view over the water in Siargao, and you’ll find yourself appreciating this breathtaking scenario.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="rect" coords="370,62,197,210" href="ALISEN_NEWYORK_ITAD.html" onMouseOver="writeText('The bridge quickly became a cultural sensation.');" onMouseOut="dissolveText('')";/>
+	<area shape ="poly" coords="241,231,252,231,262,231,269,231,277,231,287,231,296,232,306,232,319,232,331,232,340,232,343,239,343,247,343,257,343,264,345,272,343,281,343,289,343,298,343,305,341,314,335,322,330,325,325,329,322,338,313,339,302,340,295,333,288,328,282,325,276,326,270,330,268,336,261,339,254,339,246,339,240,331,233,325,229,315,226,302,226,288,227,278,232,271,236,259,239,249,239,239" href="ALISEN_JAPAN_ITAD.html" onMouseOver="writeText('Japanese culture is unique and lanterns as a part of it, represent love, brightness and protection from evil.');" onMouseOut="dissolveText('')";/>
+	</map>
+	<br>
+	<p id="desc"></p>
+
+<br><br><br><br><br><br><br><br><br>
+ <div id="footer">
+			<h5 style="color:#CCCCCC " align="center"><sub>ALISEN, MARIEL CAMILLE T.</sub></h5>
+		    <h5 style="color: #CCCCCC  " align="center"> All rights reserved 20121 ® University of the East, Manila</h5></h1></div> 
+        </div> 
+
+</body>
+</html>
