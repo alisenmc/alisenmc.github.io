@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html  lang="en">
+<head>
+    <meta charset="utf-8" >
+    <title>Recipeex</title>
+	<link rel="stylesheet" href="FoodTrends_Design.css">
+    <style type="text/css">
+    
+    </style>
+<script language="JavaScript">
+		function writeText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+	}
+
+		function dissolveText(txt) { 
+			document.getElementById("desc").innerHTML=txt;
+	}
+</script>
+<link rel="icon" href="../Pictures/Logo_rex.png" sizes="16x16" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="style_rex.css" rel="stylesheet">	
+</head>
+<body>
+<div class ="container">
+	<div class ="navbar">
+
+<nav>
+<ul>
+	<li><a href = "Homepage.html">Home</a></li>
+	<li><a href = "Recipe.html">Recipes</a></li>
+	<li><a href = "FoodTrends.html">Food Trends</a></li>
+	<li><a href = "CookingTechniques.html">Cooking Techniques</a></li>
+	<li><a href = "KitchenTips.html">Kitchen Tips</a></li>
+</ul>
+</div>
+
+<div align="center">
+<br>
+<h1>Food Trends</h1>
+<br>
+	<img src ="../Pictures/Map.png" usemap="#map"> 
+	<map name ="map">
+	<br>
+	
+	<area shape ="rect" coords="5,453,167,336" href="" onMouseOver="writeText('Pho is traditionally made with chicken or beef broth.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="rect" coords="167,329,5,191" href="" onMouseOver="writeText('For the Japanese, the production of miso is an art form.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="rect" coords="5,6,283,180" href="" onMouseOver="writeText('The name of the dish stems from bool and kogi, Korean words denoting fire and meat.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="circle" coords="205,203,75" href="" onMouseOver="writeText('Quesadilla is a simple Mexican snack consisting of a flour or corn tortilla filled with cheese that melts well.');" onMouseOut="dissolveText('')";/>
+	<area shape ="rect" coords="583,188,288,7" href="" onMouseOver="writeText('Naan is a unique and popular flatbread with a chewy texture that has its roots in India.');" onMouseOut="dissolveText('')";/>
+	<area shape ="poly" coords="289,191,313,194,337,194,356,193,386,192,402,194,404,228,402,253,395,259,380,264,366,274,356,290,349,309,348,327,329,330,305,329,285,330,271,330,171,331,172,277,244,277,250,274,237,282,232,282,277,247" href="" onMouseOver="writeText('Fajitas is a popular Tex-Mex dish made from marinated, grilled skirt steak that is served in a wheat flour tortilla.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="circle" coords="417,329,66" href="" onMouseOver="writeText('Mooncakes are meant to be shared among people.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="rect" coords="401,452,173,333" href="Food Trends/Burritos.html" onMouseOver="writeText('The first appearance of burrito in American restaurants was recorded in the early 1920s in Los Angeles.');" onMouseOut="dissolveText(' ')";/>
+	<area shape ="rect" coords="583,345,407,452" href="" onMouseOver="writeText('Tamal is a Mexican dish dating back to the Aztecs.');" onMouseOut="dissolveText('')";/>
+	<area shape ="rect" coords="583,335,413,191" href="" onMouseOver="writeText('There is a special event called the International Nacho Festival, held every October in Piedras Negras.');" onMouseOut="dissolveText('')";/>
+	
+	</map>
+
+<p id="desc"></p>
+
+</body>
+</html>

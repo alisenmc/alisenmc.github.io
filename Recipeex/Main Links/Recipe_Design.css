@@ -1,0 +1,149 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	font-family: poppins;
+	
+}
+body {
+	
+	background-image: linear-gradient(rgba(50,50,50,0.7), rgba(50,50,50,0.7)),url("../Pictures/Recipe.jpg");	
+	background-repeat: no-repeat;
+	background-size:100% 100vh;		
+	background-attachment:fixed;	
+	background-size:100% 100vh;		
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.navbar {
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	width:50px;
+	cursor: pointer;
+}
+nav {
+	flex: 1;
+	text-align: right;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;	
+}
+.row {
+	display:flex;
+	height:88%;
+	align-items: center;
+	
+}
+.col {
+	flex-basis: 50%;
+	padding: 80px;
+}
+h1 {
+	color: #DED369;
+	font-size: 50px;
+}
+p { 
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: justify;
+	padding: 20px;
+}
+a {
+	text-decoration: none;
+}
+
+.left{
+
+		
+		margin:100px 100px 0px 0px;
+		float:left;
+		border-radius: 25px;
+        background-image: url("../Pictures/box.png");background-repeat: no-repeat;
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding:0px 0px 0px 0px;
+        width:300px;
+
+
+		}
+
+
+.right{
+
+		
+		margin:100px 550px 0px 0px;
+		float:right;
+		border-radius: 25px;
+        background-image: url("../Pictures/box.png");background-repeat: no-repeat;
+        background-position: right top;
+        background-repeat: no-repeat;
+        padding:0px 0px 0px 0px;
+        width:300px;
+		}
+			
+.right2{
+
+		
+		margin:100px 0px 0px 0px;
+		float:right;
+		border-radius: 25px;
+        background-image: url("../Pictures/box.png");background-repeat: no-repeat;
+        background-position: right top;
+        background-repeat: no-repeat;
+        padding:0px 0px 0px 0px;
+        width:300px;
+}
+
+img { 
+
+	border-radius: 10px;
+
+}
+a{
+		
+	font-size:1em;
+	color: white;	
+}
+	
+a:hover{
+	color:#DED369;
+}
+	
+#a1{
+	color: white;
+	font-size:1.125em;		
+}
+	
+#a1:hover{
+	color: #050505;
+	font-size: 1em;		
+	font-size: 150%;	
+}
+.white{
+		left:60%;
+		top: 150px;
+		width:500px;
+		height:2000px;
+        position: absolute;
+		border:0px solid navy;
+		padding:10px 20px 20px 20px;
+		background-image: url("../Pictures/bgg.png");background-repeat: no-repeat;
+}
+
+
