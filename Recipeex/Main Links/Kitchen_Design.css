@@ -6,7 +6,7 @@
 }
 body {
 	
-	background-image: linear-gradient(rgba(50,50,50,0.7), rgba(50,50,50,0.7)),url("../Pictures/Kitchen.png");	
+	background-image: linear-gradient(rgba(50,50,50,0.7), rgba(50,50,50,0.7)),url("../Pictures/kitchen.png");	
 	background-repeat: no-repeat;
 	background-size:100% 100vh;		
 	background-attachment:fixed;	
@@ -111,10 +111,9 @@ a:hover{
         position: absolute;
 		border:0px solid navy;
 		padding:10px 20px 20px 20px;
-		background-image: url("../Pictures/kitchen.png");background-repeat: no-repeat;
+		background-image: url("../Pictures/bgg.png");background-repeat: no-repeat;
 }
 .center {
 	padding: 10px 10px 10px 90px;
 }
-	
 	
