@@ -1,0 +1,170 @@
+	* {
+
+		margin: 0;
+		padding: 0;
+		font-family: poppins;
+	}
+	body {
+		
+		background-image: linear-gradient(rgba(50,50,50,0.7), rgba(50,50,50,0.7)),url("../Pictures/hand.jpg");	
+		background-repeat: no-repeat;
+		background-size:100% 100vh;		
+		background-attachment:fixed;	
+		background-size:100% 100vh;		
+	}
+
+	.container {
+		width: 100%;
+		height: 100vh;
+		padding-left: 8%;
+		padding-right: 8%;
+		box-sizing: border-box;
+	}
+	
+	.navbar {
+		height: 12%;
+		display: flex;
+		align-items: center;
+	}
+	.logo {
+		width:50px;
+		cursor: pointer;
+	}
+	nav {
+		flex: 1;
+		text-align: right;
+	}
+	nav ul li {
+		list-style: none;
+		display: inline-block;
+		margin-left: 30px;
+	}
+	nav ul li a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 20px;	
+	}
+	.row {
+		display:flex;
+		height:88%;
+		align-items: center;
+		
+	}
+	.col {
+		flex-basis: 50%;
+		padding: 80px;
+	}
+	
+	a {
+		text-decoration: none;	
+		font-size:1em;
+		color: white;	
+	}
+	
+	button.a {
+	
+		width:250px;
+		color:#000;
+		font-size: 15px;
+		padding: 12px 0;
+		background: #DED369;
+		border: 0;
+		border-radius: 20px;
+		outline: none;
+		margin-top: 30px;
+		
+	}
+	
+	img {
+			
+		width: 250px;
+		height: 250px;
+		opacity: 0.75;
+		
+	}
+	
+	a:hover{
+		color:#DED369;
+	}
+		
+	#a1{
+		color: white;
+		font-size:1.125em;		
+	}
+		
+	#a1:hover{
+		color: #050505;
+		font-size: 1em;		
+		font-size: 150%;	
+	}
+		
+	p { 
+		color: #DED369;
+		font-size: 25px;
+		line-height: 25px;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.contact-form {
+		width: 60%;
+		max-width: 600px;
+		background: #f1f1f1;
+		top: 30%;
+		left: 35%;
+		transform: translate (-50%,-50%);
+		padding: 30px 40px;
+		box-sizing: border-box;
+		border-radius: 8px;
+		text-align: center;
+		box-shadow: 0 0 20px #000000b3;
+		font-family: poppins;
+		display:inline-block;
+	
+	}
+
+	.contact-form h1 {
+
+		margin-top: 0;
+		font-weight: 200;
+	}
+
+	.txtb {
+			border: 1px solid gray;
+			margin: 8px 0;
+			padding: 12 px 18px;
+			border-radius: 8px;
+	}
+	.txtb label {
+
+		display: block;
+		text-align: left;
+		color: #333;
+		text-transform: uppercase;
+		font-size: 14px;
+		padding: 10px;
+	}
+
+	.txtb input, .txtb textarea{
+		width: 100%;
+		border: none;
+		background: none;
+		outline: none;
+		font-size: 18px;
+		margin-top: 6px;
+		padding: 10px;
+	}
+
+	#btn {
+		display: block;
+		background: #E0475B;
+		padding: 14px 0;
+		text-transform: uppercase;
+		cursor: pointer;
+		margin-top: 8px;
+		width: 100%;
+	}
+
+	 #btn:hover{
+		color: black;
+	}
