@@ -71,9 +71,9 @@ a {
 .left{
 
 		
-		margin:100px 100px 0px 0px;
-		float:left;
-		border-radius: 25px;
+	margin:100px 100px 0px 0px;
+	float:left;
+	border-radius: 25px;
         background-image: url("../Pictures/box.png");background-repeat: no-repeat;
         background-position: left top;
         background-repeat: no-repeat;
@@ -87,9 +87,9 @@ a {
 .right{
 
 		
-		margin:100px 550px 0px 0px;
-		float:right;
-		border-radius: 25px;
+	margin:100px 575px 0px 0px;
+	float:right;
+	border-radius: 25px;
         background-image: url("../Pictures/box.png");background-repeat: no-repeat;
         background-position: right top;
         background-repeat: no-repeat;
@@ -100,9 +100,9 @@ a {
 .right2{
 
 		
-		margin:100px 0px 0px 0px;
-		float:right;
-		border-radius: 25px;
+	margin:100px 0px 0px 0px;
+	float:right;
+	border-radius: 25px;
         background-image: url("../Pictures/box.png");background-repeat: no-repeat;
         background-position: right top;
         background-repeat: no-repeat;
@@ -140,10 +140,8 @@ a:hover{
 		top: 150px;
 		width:500px;
 		height:2000px;
-        position: absolute;
+        	position: absolute;
 		border:0px solid navy;
 		padding:10px 20px 20px 20px;
 		background-image: url("../Pictures/bgg.png");background-repeat: no-repeat;
 }
-
-
